@@ -1,0 +1,174 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey"
+        ],
+        "responses": [
+          "Hi there, how can I help?",
+          "Hello! How can I assist you?",
+          "Hey, what can I do for you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "Goodbye! Have a nice day!",
+          "See you later! Thanks for stopping by.",
+          "Take care! Come back soon!"
+        ]
+      },
+      {
+        "tag": "order",
+        "patterns": [
+          "Can I order a coffee?",
+          "I'd like to order a coffee",
+          "May I have a cup of coffee?"
+        ],
+        "responses": [
+          "Absolutely! What kind of coffee would you like?",
+          "Sure thing! What can I get for you?",
+          "Of course! What's your order?"
+        ]
+      },
+      {
+        "tag": "order_coffee",
+            "patterns": [
+                "I'd like to order a cappuccino",
+                "Can I get a latte please?",
+                "I want a mocha"
+            ],
+            "responses": [
+                "One cappuccino coming right up!",
+                "Sure thing, a latte it is!",
+                "Here's your delicious mocha!",
+                "Enjoy your espresso!"
+            ]
+      },
+      {
+        "tag": "menu_options",
+        "patterns": [
+          "What's on the menu?",
+          "Can you tell me about your drinks?",
+          "What do you offer?"
+        ],
+        "responses": [
+          "Our menu includes coffee, tea, and hot chocolate.",
+          "We have a wide variety of drinks, including lattes, cappuccinos, and iced coffees.",
+          "We offer a range of hot and cold beverages, including our special seasonal drinks."
+        ]
+      },
+      {
+        "tag": "coffee_types",
+        "patterns": [
+          "What kinds of coffee do you have?",
+          "Do you offer any specialty drinks?",
+          "Can you recommend a coffee?"
+        ],
+        "responses": [
+          "We offer a variety of coffee types, including dark roast, medium roast, and decaf.",
+          "Our specialty drinks include caramel macchiatos, pumpkin spice lattes, and mochas.",
+          "If you're looking for something bold, I recommend trying our dark roast. If you want something lighter, our blonde roast is a great option."
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where's my order?",
+          "When will my coffee be ready?",
+          "How much longer until my drink is ready?"
+        ],
+        "responses": [
+          "I'm sorry for the delay. Let me check on the status of your order.",
+          "Your order should be ready soon. Thanks for your patience.",
+          "It looks like your drink is almost done. We appreciate your patience."
+        ]
+      },
+      {
+        "tag": "price",
+        "patterns": [
+          "How much does a coffee cost?",
+          "What's the price of a latte?",
+          "Can you tell me how much a cappuccino is?"
+        ],
+        "responses": [
+          "Our prices vary depending on the size and type of drink. A small coffee starts at $2.50.",
+          "A latte starts at $3.75 for a small.",
+          "A cappuccino is $3.50 for a small."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+        "What are your hours?",
+        "When do you open?",
+        "What time do you close?"
+        ],
+        "responses": [
+        "We're open Monday to Friday from 6am to 8pm, and on weekends from 7am to 6pm."
+        ]
+      },
+        {
+        "tag": "payment",
+        "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept cash?"
+        
+        ],
+        "responses": [
+        "We accept all major credit cards, as well as cash.",
+        "Yes, you can pay with a credit card.",
+        "We do accept cash."
+      
+        ]
+        },
+      {
+        "tag": "loyalty",
+        "patterns": ["Do you have a loyalty program?",
+         "How can I join your loyalty program?", 
+        "What are the benefits of your loyalty program?"],
+        "responses": ["Yes, we offer a loyalty program where you can earn points for every purchase.",
+         "You can sign up for our loyalty program on our website or in-store.", 
+         "Our loyalty program offers rewards, discounts, and exclusive offers."]
+      },{
+        "tag": "coffee-add-on",
+        "patterns": [
+          "Can I get some sugar for my coffee?",
+          "Do you have cream for coffee?",
+          "I would like to add milk to my coffee"
+          
+        ],
+        "responses": [
+          "Sure! Would you like me to add that to your order?",
+          "Absolutely! I'll make sure to add that to your coffee.",
+          "No problem! We have a variety of add-ons available. What else would you like to add?"
+        ]
+      },
+      {
+        "tag": "anything",
+        "patterns": [
+          "Anything else?",
+          "Is there anything else you would recommend?",
+          "Can you suggest something else?"
+        ],
+        "responses": [
+          "Certainly! We have a variety of options available. What are you in the mood for?",
+          "Of course! How about trying our new seasonal drink?",
+          "Absolutely! Would you like me to suggest some options for you?",
+          "Sure! How about our signature drink?"
+        ]
+      }
+  
+  
+    ]
+}    
+  
