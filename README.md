@@ -35,7 +35,6 @@ This Python script implements the Coffee Ordering Chatbot. Here are the main fun
 
 ## Output
 
-<img width="1440" alt="NLP_coffee_chatbot_ss" src="https://github.com/KIN156/NLP_Coffee_Chatbot/assets/67004684/b8800ee1-05ba-4ea7-bc90-29f393c36f0c">
 
 
 ## Contributing
